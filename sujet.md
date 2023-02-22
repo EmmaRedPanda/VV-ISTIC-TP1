@@ -11,3 +11,9 @@
 5.  Shortly after the appearance of WebAssembly another paper proposed a mechanized specification of the language using Isabelle. The paper can be consulted here: https://www.cl.cam.ac.uk/~caw77/papers/mechanising-and-verifying-the-webassembly-specification.pdf. This mechanized specification complements the first formalization attempt from the paper. According to the author of this second paper, what are the main advantages of the mechanized specification? Did it help improving the original formal specification of the language? What other artifacts were derived from this mechanized specification? How did the author verify the specification? Does this new specification removes the need for testing?
 
 ## Answers
+
+1. Le cas Mars Climate Orbiter : https://www.leparisien.fr/sciences/quand-la-science-semmele-une-erreur-de-conversion-et-la-sonde-secrase-sur-mars-21-08-2021-GAWI22Z4GVAX3E7VYN42CPWMCA.php
+Le Mars Climate Orbiter était une sonde spatiale robotique lancée par la NASA le 11 décembre 1998 pour étudier le climat martien. L'équipe de navigation a utilisé le système métrique dans ses calculs, tandis que l'équipe de conception et de construction du vaisseau spatial a fourni des données d'accélération cruciales dans le système métrique anglais. Ici l'erreur est entre différents composants donc il s'agit d'un bug global.
+Au niveau des conséquences, il y a eu une grosse perte d'argent pour la NASA (dans les 327,6 millions de dollars) ainsi que du retard dans la découverte spaciale et un impact sur leur crédibilité sur le coup. Cela aurait difficilement pu être vu par des tests mais aurait pû être évité avec une documentation complète du code.
+
+2. 
